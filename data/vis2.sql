@@ -1,11 +1,3 @@
-
-
-SELECT * FROM Production.ProductCategory 
-SELECT * FROM Production.ProductSubcategory
-SELeCT * FROM Production.Product
-SELECT * FROM Sales.SalesOrderDetail 
-
-
 SELECT 
     pc.Name AS ProduktKategori,
     ROUND(SUM(sod.LineTotal), 2) AS TotalFörsäjning

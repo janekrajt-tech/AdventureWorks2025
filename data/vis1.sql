@@ -1,11 +1,3 @@
-USE AdventureWorks2025
-
-SELECT * FROM Production.ProductCategory 
-
-SELECT * FROM Production.Product
-SELECT * FROM Production.ProductSubcategory
-
-
 SELECT
     pc.Name AS CategoryName, 
     COUNT(DISTINCT p.ProductID) AS ProductCount
